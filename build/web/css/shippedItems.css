@@ -1,0 +1,40 @@
+body {
+    background-color: #E6F9E6;
+}
+
+.ship-order {
+    color: #0B1E33;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+}
+
+.table-responsive thead {
+    background-color:#0B1E33;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+tbody {
+    background-color: white;
+}
+
+.text-success {
+    color: green;
+}
+
+.text-danger {
+    color: red;
+    font-weight: bold;
+}
+
+tr[style="background-color: grey; color: white;"] {
+    background-color: grey;
+    color: white;
+}
+
+td[colspan="8"] {
+    text-align: center;
+}

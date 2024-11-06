@@ -1,0 +1,68 @@
+body {
+    background-color: #E6F9E6;
+}
+
+/* Text center and styling for "All Products" */
+.all-user {
+    color: #0B1E33;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+/* Table styling */
+.table-hover thead {
+    background-color: #0B1E33;
+    color: white;
+    font-size: 18px;
+}
+
+.table-hover tbody {
+    background-color: white;
+    font-size: 16px;
+}
+
+/* Table cell styling for images */
+table img {
+    width: 50px;
+    height: 50px;
+}
+
+/* Form button styling */
+form.text-center button.btn-success {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+}
+
+form.text-center button.btn-success:hover {
+    background-color: #45a049;
+}
+
+.btn-add {
+    width: 50px;
+    color: white;
+    background-color: #0B1E33;
+}
+
+.btn-add:hover {
+    color: #0B1E33;
+    background: #F5A201;
+    transform: none !important;
+    padding: 10px;
+    border: none;
+}
+
+.btn-ban {
+    color: white;
+    background: #d9534f;
+    border: none;
+    width: 100%;
+}
+
+.btn-ban:hover {
+    color: #0B1E33;
+    background: #F5A201;
+    transform: none;
+    border: none;
+}
