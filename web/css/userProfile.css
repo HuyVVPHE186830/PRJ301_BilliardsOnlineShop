@@ -1,0 +1,59 @@
+body {
+    background-color: #E6F9E6;
+}
+
+.container.bg-secondary {
+    background-color: white;
+}
+
+.breadcrumb {
+    background-color: #f8f9fa;
+    padding: 1rem;
+}
+
+.breadcrumb-item a {
+    text-decoration: none;
+}
+
+.card {
+    margin-bottom: 1rem;
+}
+
+.card-body.text-center img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+
+.card-body.text-center img.default {
+    width: 150px;
+}
+
+.list-group-item h1 {
+    font-size: 1.5rem;
+}
+
+.row .col-sm-3 p {
+    margin-bottom: 0;
+}
+
+.row .col-sm-9 p,
+.row .col-sm-9 input {
+    margin-bottom: 0;
+}
+
+hr {
+    border-top: 1px solid #dee2e6;
+}
+
+input[type="password"] {
+    width: 100%;
+    padding: .375rem .75rem;
+    margin-top: .375rem;
+    margin-bottom: .375rem;
+}
+
+input[type="submit"] {
+    padding: .375rem .75rem;
+    margin-top: .75rem;
+}

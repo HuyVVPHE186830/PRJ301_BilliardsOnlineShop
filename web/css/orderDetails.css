@@ -1,0 +1,32 @@
+body {
+    background-color: #E6F9E6;
+}
+
+.order-details {
+    color: #0B1E33;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+}
+
+.table thead {
+    background-color: #0B1E33;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.table tbody {
+    background-color: white;
+    font-size: 15px;
+    font-weight: bold;
+}
+
+.text-success {
+    color: green;
+}
+
+.text-danger {
+    color: red;
+}

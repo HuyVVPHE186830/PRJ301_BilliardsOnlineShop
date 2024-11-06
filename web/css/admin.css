@@ -1,0 +1,122 @@
+/* admin.css */
+
+/* Background color for the body */
+body {
+    background-color: #E6F9E6;
+}
+
+/* Styling for the table header */
+thead {
+    background-color: #0B1E33;
+    color: white;
+    font-size: 18px;
+}
+
+/* Styling for the table body */
+tbody {
+    background-color: white;
+    font-size: 16px;
+}
+
+/* Styling for the text center */
+.all-products {
+    color: #0B1E33;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px;
+}
+
+/* Styling for the "No Items Available" row */
+tr[style*="background-color: grey"] {
+    background-color: grey;
+    color: white;
+    text-align: center;
+}
+
+/* Width and height for the product images */
+td img {
+    width: 50px;
+    height: 50px;
+}
+
+.btn {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-edit {
+    width: 80px;
+    color: white;
+    background-color: #0B1E33;
+}
+
+.btn-edit:hover {
+    color: #0B1E33;
+    background: #F5A201;
+    transform: none !important;
+    padding: 10px;
+    border: none;
+}
+
+.btn-add {
+    width: 120px;
+    color: white;
+    background-color: #0B1E33;
+}
+
+.btn-add:hover {
+    color: #0B1E33;
+    background: #F5A201;
+    transform: none !important;
+    padding: 10px;
+    border: none;
+}
+
+.btn-remove {
+    background: #d9534f;
+    border: none;
+}
+
+.btn-remove:hover {
+    color: #0B1E33;
+    background: #F5A201;
+    transform: none;
+    border: none;
+}
+
+td .btn-edit, 
+td .btn-remove {
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    margin: 5px 0;
+}
+
+td .btn-edit:hover,
+td .btn-edit:active,
+td .btn-remove:hover,
+td .btn-remove:active {
+    width: 100%;
+    padding: 10px 0;
+    margin: 5px 0;
+}
+
+/* Styling for the Add Products button */
+form button {
+    /* Add specific styles if any */
+}
+
+/* Styling for the pagination buttons */
+form .btn-success {
+    /* Add specific styles if any */
+}
+
+/* Styling for the pagination input */
+form input[type="number"] {
+    width: 5vw;
+}

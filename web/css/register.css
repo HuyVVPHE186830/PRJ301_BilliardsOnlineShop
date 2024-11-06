@@ -1,0 +1,70 @@
+body {
+    background: url('../images/WPM2024-Website-1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    margin-top: 50px;
+}
+
+form {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+}
+
+h2 {
+    color: #0B1E33;
+}
+
+p {
+    color: blue;
+}
+
+.form-group label {
+    font-weight: bold;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+.btn-danger {
+    background: #d9534f;
+    border: none;
+}
+
+.btn-danger:hover {
+    color: #0B1E33;
+    background: #F5A201;
+    transform: none;
+    border: none;
+}
+
+.btn-success {
+    background: #0B1E33;
+}
+
+.btn-success:hover {
+    color: #0B1E33;
+    background: #F5A201;
+    transform: none;
+    padding: 10px;
+    border: none;
+}
+
+.text-center {
+    text-align: center;
+}

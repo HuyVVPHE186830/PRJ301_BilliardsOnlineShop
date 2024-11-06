@@ -1,0 +1,53 @@
+body {
+    background: url('../images/WPM2024-Website-1.jpg') no-repeat center center fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container .row {
+    margin-top: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+}
+
+form {
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+}
+
+form h2 {
+    color: #0B1E33;
+}
+
+form p {
+    color: #F5A201;
+}
+
+.text-center {
+    font-weight: bold;
+}
+
+.btn {
+    width: 100%;
+    padding: 10px;
+    margin: 0 0 15px 0;
+    border: none;
+    background: #0B1E33;
+    border-radius: 5px;
+    font-size: 16px;
+    color: white;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn:hover {
+    color: #0B1E33;
+    background: #F5A201;
+    transform: none;
+    padding: 10px;
+    border: none; 
+}

@@ -1,0 +1,59 @@
+body {
+    background-color: #E6F9E6;
+}
+
+.unship-order {
+    color: #0B1E33;
+    font-size: 36px;
+    font-weight: bold;
+    margin: 20px;
+    text-align: center;
+}
+
+.table-responsive thead {
+    background-color:#0B1E33;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+tbody {
+    background-color: white;
+}
+
+tr[style="background-color: grey; color: white;"] {
+    background-color: grey;
+    color: white;
+}
+
+td[colspan="8"] {
+    text-align: center;
+}
+
+.btn-reset {
+    background: #d9534f;
+    color: white;
+    width: 40%;
+    border: none !important;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-reset:hover {
+    color: #0B1E33;
+    background: #F5A201;
+    transform: none;
+}
+
+.btn-add {
+    background: #0B1E33;
+    color: white;
+    width: 40%;
+    border: none !important;
+    transition: background 0.3s, color 0.3s;
+}
+
+.btn-add:hover {
+    color: #0B1E33;
+    background: #F5A201;
+    transform: none;
+}
